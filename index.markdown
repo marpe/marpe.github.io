@@ -4,9 +4,4 @@
 
 layout: home
 
-minima:
-  skin: dark
-cayman:
-  skin: dark
-
 ---
