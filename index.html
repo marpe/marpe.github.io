@@ -1,58 +1,60 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <style>
+      html, body {
+          background: #222;
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          color: #fff;
+      }
+      
+      #content {
+          margin: 0 auto;
+          max-width: 800px;
+          padding: 20px;
+      }
 
-<div style="position: relative">
-  <img src="assets/mahjong-icons.png" />
-  <div
-    style="
-      position: absolute;
-      right: 60px;
-      top: 30px;
-      width: 320px;
-      color: #fff;
-      font-size: 14px;
-    "
-  >
-    <h1 style="color: #fff">Mahjong Icons</h1>
-    <p>
-      37 free mahjong icons for personal and commercial use under the condition
-      that you provide a link to this page.
-    </p>
-    <div
-      style="
-        background: #222;
-        float: left;
-        margin-top: 20px;
-        padding: 10px;
-        border-radius: 3px;
-      "
-    >
-      <a
-        href="/assets/mahjong-icons/mahjong-icons-128px-v1-martinpersson.org.zip"
-        style="color: #fff; font-weight: bold"
-        >Download 128px</a
-      >
-      /
-      <a
-        href="/assets/mahjong-icons/mahjong-icons-64px-v1-martinpersson.org.zip"
-        style="color: #fff; font-weight: bold"
-        >Download 64px</a
-      ><br />
-    </div>
-    <div
-      style="
-        background: #222;
-        float: left;
-        margin-top: 10px;
-        padding: 10px;
-        border-radius: 3px;
-      "
-    >
-      <a
-        href="/assets/mahjong-icons/mahjong-expansion1-128px-martinpersson.org.zip"
-        style="color: #fff; font-weight: bold"
-        >Flowers and Seasons 128px</a
-      >
+      a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      
+      a:hover {
+          text-decoration: underline;
+      }
+      
+      h1 {
+          font-size: 2em;
+          margin: 0;
+      }
+  </style>
+</head>
+<body>
+<main id="content">
+  <div style="background-image: url('./assets/mahjong-icons.png'); background-repeat: no-repeat; width: 800px; height: 300px">
+    <div style="padding: 20px; position: relative;">
+      <h1>Mahjong Icons</h1>
+      <div style="position: absolute; right: 20px; width: 300px; margin-top: 20px">
+        <p>
+          37 free mahjong icons for personal and commercial use under the condition
+          that you provide a link to this page.
+        </p>
+        <div>
+          <a href="/assets/mahjong-icons/mahjong-icons-128px-v1-martinpersson.org.zip">Download 128px</a>
+          /
+          <a href="/assets/mahjong-icons/mahjong-icons-64px-v1-martinpersson.org.zip">Download 64px</a>
+        </div>
+        <div>
+          <a href="/assets/mahjong-icons/mahjong-expansion1-128px-martinpersson.org.zip">Flowers and Seasons 128px</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</main>
+</body>
+</html>
